@@ -52,7 +52,6 @@ For the final tidy dataset the tidyData is melted on Activity and subject and th
 
 The format is as follows with each column seperated by ' ':
 
-rownumber		enclosed in quotes
 acivity			enclosed in quotes
 subject			1:30
 mean			mean of all 66 measurements with mean() or std()
