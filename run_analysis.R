@@ -81,4 +81,4 @@ meltedtidyData2 <- melt(tidyData, id=c("Activity","Subject"), measure.vars=1:66)
 tidyData2 <- ddply(meltedtidyData2,c("Activity","Subject"),summarise,mean=mean(value))
 
 ##Now write it out
-write.table(tidyData2,"proj/tidyData2.txt",col.names=FALSE)
+write.table(tidyData2,"proj/tidyData2.txt",row.name=FALSE)
